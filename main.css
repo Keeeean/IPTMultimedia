@@ -64,7 +64,8 @@
 }
 
 #cpu,
-#ram{
+#ram,
+#gpu{
     display: none;
     background: white;
     color: black;
@@ -161,9 +162,43 @@
 #task_des {
     background: white;
     position: absolute;
-    top: 500px;
+    top: 350px;
+    left: 50px;
+}
+#ram_video {
+    position: absolute;
+    bottom: 10px;
     left: 50px;
 }
 
+#set1 {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    right: 315px;
+}
 
+#set1 button {
+    width: 175px;
+    background: white;
+    color: black;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    border: white;
+    border-radius: 5px;
+}
+
+
+#back_btn_1 {
+    margin-right: 20px;
+}
+
+#ram_image {
+    display:none;
+    position: absolute;
+    width: 800px;
+    right: 100px;
+    top: 100px;
+    height: 500px;
+}
 
