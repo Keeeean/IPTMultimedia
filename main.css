@@ -65,7 +65,8 @@
 
 #cpu,
 #ram,
-#gpu{
+#gpu,
+#motherboard{
     display: none;
     background: white;
     color: black;
@@ -76,7 +77,8 @@
 
 }
 #cpu_text,
-#ram_text{
+#ram_text,
+#gpu_text{
     text-align: center;
     background: white;
     font-size: 20px;
@@ -86,19 +88,22 @@
 }
 
 #cpu_text p,
-#ram_text p{
+#ram_text p,
+#gpu_text p{
     background: white;
 
 }
 
 
 #cpu_text p:last-child,
-#ram_text p:last-child{
+#ram_text p:last-child,
+#gpu_text P:last-child{
     margin-top: 15px;
 }
 
 #cpu_text span,
-#ram_text span{
+#ram_text span,
+#gpu_text span{
     display: inline-block;
     margin: 15px;
     background: white;
@@ -171,14 +176,16 @@
     left: 50px;
 }
 
-#set1 {
+#set1,
+#set2{
     display: none;
     position: absolute;
     bottom: 50px;
     right: 315px;
 }
 
-#set1 button {
+#set1 button,
+#set2 button{
     width: 175px;
     background: white;
     color: black;
@@ -189,7 +196,8 @@
 }
 
 
-#back_btn_1 {
+#back_btn_1,
+#back_btn_2 {
     margin-right: 20px;
 }
 
@@ -202,3 +210,10 @@
     height: 500px;
 }
 
+#gpu_images {
+    display: none;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+
+}
