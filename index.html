@@ -21,13 +21,12 @@
 
             <span>Central Processing Unit</span>
 
-            <p>This is the piece of hardware in the computer that enables it to interact with applications and programmes
+            <p>This is the piece of hardware in the computer that processes the inputs from the user of computer and sends it back to an output device, like the monitor!
             </p>
 
             <p>Simply put, it is the component of the computer that opens applications and executables. Most games are executables!</p>
 
-            <iframe id="cpu_video" width="560" height="315" src="https://www.youtube.com/embed/FZGugFqdr60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+            <iframe id="cpu_video" width="560" height="315" src="https://www.youtube.com/embed/lxnlyJYZ6Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
         <img id="executable" src="img/executabe.jpg" alt="executable">
@@ -85,16 +84,46 @@
 
     <div id="set2">
         <button id="back_btn_2" onclick="backRAM()">Back To RAM!</button>
-        <button id="next_btn_3">Next! ----</button>
+        <button id="next_btn_3" onclick="nextMB()">Next! ----</button>
     </div>
 
     <div id="motherboard">
         <div id="motherboard_text">
             Finally, the
             <span>Motherboard</span>
-            <p></p>
 
+            <p>This is the hardware component that connects all the hardware, such as the previous components to each other, namely all the other parts to the CPU.</p>
+
+            <p>It is the backbone of the computer, essentially being the link that allows for the communication and transfer of data between the different hardware in the computer</p>
+
+            <iframe id="motherboard_video" width="560" height="315" src="https://www.youtube.com/embed/b2pd3Y6aBag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+    </div>
+
+    <div id="motherboard_img">
+        <img src="img/motherboard.jpg" alt="">
+
+    </div>
+
+    <div id="set3">
+        <button id="back_btn_3" onclick="backGPU()">Back to GPU!</button>
+        <button id="finish_btn" onclick="finish()">Finish!</button>
+    </div>
+
+
+    <div id="finish_screen">
+        <header>Finish!</header>
+        <p>I hope this has helped your understanding of computers, especially the main components of  computers!</p>
+
+        <span>Revisit the components!</span>
+
+    </div>
+
+    <div id="set4">
+        <button onclick="CPU()">CPU</button>
+        <button onclick="RAM()">RAM</button>
+        <button onclick="GPU()">GPU</button>
+        <button onclick="Motherboard()">Motherboard</button>
     </div>
 
 

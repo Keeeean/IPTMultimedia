@@ -7,6 +7,7 @@
 }
 
 
+
 #start header {
     position: absolute;
     left: 50%;
@@ -78,7 +79,8 @@
 }
 #cpu_text,
 #ram_text,
-#gpu_text{
+#gpu_text,
+#motherboard_text{
     text-align: center;
     background: white;
     font-size: 20px;
@@ -89,7 +91,8 @@
 
 #cpu_text p,
 #ram_text p,
-#gpu_text p{
+#gpu_text p,
+#motherboard p{
     background: white;
 
 }
@@ -97,13 +100,15 @@
 
 #cpu_text p:last-child,
 #ram_text p:last-child,
-#gpu_text P:last-child{
+#gpu_text p:last-child,
+#motherboard p:last-child{
     margin-top: 15px;
 }
 
 #cpu_text span,
 #ram_text span,
-#gpu_text span{
+#gpu_text span,
+#motherboard span{
     display: inline-block;
     margin: 15px;
     background: white;
@@ -123,12 +128,12 @@
 
 #executable {
     display: inline-block;
-    height: 250px;
+    height: 200px;
     padding: 20px;
     background: white;
     position: absolute;
     margin: 0;
-    top: 325px;
+    top: 375px;
     left: 250px;
     user-select: none;
 }
@@ -177,15 +182,28 @@
 }
 
 #set1,
-#set2{
+#set2,
+#set3 {
     display: none;
     position: absolute;
     bottom: 50px;
     right: 315px;
 }
 
+#set4 {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -40%)
+
+
+}
+
 #set1 button,
-#set2 button{
+#set2 button,
+#set3 button,
+#set4 button {
     width: 175px;
     background: white;
     color: black;
@@ -193,11 +211,13 @@
     font-size: 20px;
     border: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 
 #back_btn_1,
-#back_btn_2 {
+#back_btn_2,
+#back_btn_3 {
     margin-right: 20px;
 }
 
@@ -216,4 +236,49 @@
     right: 100px;
     top: 50px;
 
+}
+
+#finish_screen {
+    display: none;
+}
+
+#finish_screen header {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 50px;
+    margin-top: 25px;
+    top: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+#finish_screen p {
+    position: absolute;
+    width: 725px;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 150px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#finish_screen span {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -58%);
+    top: 42%;
+    color: white;
+    font-size: 50px;
+}
+
+#motherboard_img {
+    display: none;
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+#motherboard_img img {
 }
