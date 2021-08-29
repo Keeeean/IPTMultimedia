@@ -117,7 +117,7 @@
     font-size: 50px;
 }
 
-#cpu_image {
+#cpu_images  {
     display: none;
     position: absolute;
     right: 400px;
@@ -221,13 +221,18 @@
     margin-right: 20px;
 }
 
-#ram_image {
+#ram_images {
     display:none;
     position: absolute;
-    width: 800px;
-    right: 100px;
+    width: 600px;
+    right: 300px;
     top: 100px;
     height: 500px;
+}
+
+#ram_images img {
+    width: 800px;
+    height: 300px;
 }
 
 #gpu_images {
@@ -235,7 +240,6 @@
     position: absolute;
     right: 100px;
     top: 50px;
-
 }
 
 #finish_screen {
@@ -280,5 +284,39 @@
     top: 100px;
 }
 
-#motherboard_img img {
+.credit1 {
+    position: absolute;
+    font-weight: 30;
+    background: white;
+    font-size: 17px;
+    right: 10px;
+    bottom: 300px;
+}
+
+.credit2 {
+    position: absolute;
+    font-weight: 30;
+    background: white;
+    font-size: 17px;
+    right: 10px;
+    bottom: 200px;
+}
+.credit3 {
+    background: white;
+    font-weight: 30;
+
+}
+.credit4 {
+    background: white;
+    font-weight: 30;
+}
+
+.imgcredit,
+.imgcredit2,
+.imgcredit3,
+.imgcredit4 {
+    color: white;
+    font-weight: 30;
+    font-size: 30px;
+    text-align: center;
 }

@@ -79,7 +79,8 @@
       <workItem from="1630071384540" duration="5496000" />
       <workItem from="1630112670661" duration="4441000" />
       <workItem from="1630213377138" duration="2576000" />
-      <workItem from="1630215984901" duration="7990000" />
+      <workItem from="1630215984901" duration="9633000" />
+      <workItem from="1630275702929" duration="4680000" />
     </task>
     <task id="LOCAL-00001" summary="worked on gpu">
       <created>1629624959022</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629856534029</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished the entire project now. added the finish screen and the function to revisit older parts.">
+      <created>1630229702714</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630229702714</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="worked on gpu" />
     <MESSAGE value="finished gpu and related js, will now go onto finishing the motherboard component of the task and work on the finishing screen later." />
-    <option name="LAST_COMMIT_MESSAGE" value="finished gpu and related js, will now go onto finishing the motherboard component of the task and work on the finishing screen later." />
+    <MESSAGE value="finished the entire project now. added the finish screen and the function to revisit older parts." />
+    <option name="LAST_COMMIT_MESSAGE" value="finished the entire project now. added the finish screen and the function to revisit older parts." />
   </component>
 </project>
